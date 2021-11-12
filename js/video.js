@@ -9,6 +9,7 @@ document.querySelector("#play").addEventListener("click", function() {
  	console.log("Play Video");
 	 video.play();
 	 console.log(video.currentTime = 5);
+	 document.querySelector("#volume").innerHTML = (video.volume * 100) + "%";
 });
 
 /// To pause
